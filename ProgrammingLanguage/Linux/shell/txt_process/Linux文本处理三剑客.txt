@@ -1,0 +1,15 @@
+linux文本处理三剑客：grep、 sed、 awk，涵盖了文本处理的增删改查和统计分析
+grep擅长查找功能，sed擅长取行和替换，awk擅长取列。
+
+增删改：sed 
+查：grep
+统计：awk
+
+grep Globally search a Regular Expression and Print
+http://www.gnu.org/software/grep/manual/grep.html
+
+sed: Stream Editor
+http://www.gnu.org/software/sed/manual/sed.html
+
+awk: 
+https://www.gnu.org/software/gawk/manual/gawk.html
