@@ -61,35 +61,46 @@
 
 //Java：二叉搜索子树的最大键值和
 
-class A1373_MaximumSumBstInBinaryTree{
+import java.util.Arrays;
+
+class A1373_MaximumSumBstInBinaryTree {
     public static void main(String[] args) {
         Solution solution = new A1373_MaximumSumBstInBinaryTree().new Solution();
         System.out.println(solution);
     }
+
+
     // 算法描述：
     // 时间复杂度：
     // 空间复杂度：
     //leetcode submit region begin(Prohibit modification and deletion)
 
-// Definition for a binary tree node.
- public class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode() {}
-     TreeNode(int val) { this.val = val; }
-     TreeNode(int val, TreeNode left, TreeNode right) {
-         this.val = val;
-         this.left = left;
-         this.right = right;
-     }
- }
+    // Definition for a binary tree node.
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-class Solution {
-    public int maxSumBST(TreeNode root) {
-        
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
-}
+
+    class Solution {
+        public int maxSumBST(TreeNode root) {
+
+            return root.val;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
